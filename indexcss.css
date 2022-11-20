@@ -1,0 +1,316 @@
+@media (max-width:767px){
+
+    body{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+}
+       .nopadding {
+   padding: 0 !important;
+}
+
+.zoom {
+ padding: 20px 20px 20px 5px;
+  transition: transform 1s;
+  width: 300px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+}
+.underline-on-hover:hover{
+    text-decoration: underline;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.carousel .slider{
+	width: 100%;
+	height: 100%;
+	margin:auto;
+}
+.carousel-item{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 60vw; 
+}
+
+
+@media(max-width:768px){
+    body{
+    overflow-x: hidden;
+    }
+}
+
+@media(max-width:576px){
+    #aims{
+        margin-left:10px !important
+    }
+    #quick{
+        margin-left:0px !important;
+    }
+}
+
+@media (max-width:768px){
+    #quick{
+        width:100%;
+    }
+}
+
+.profile {
+  background: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin-top: 25px;
+  width:100%;
+}
+
+.profile__photo {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  z-index: 1;
+
+}
+
+.profile__photo::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  border-radius: 100%;
+  background: #141d54;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.profile:hover .profile__photo::before {
+  height: 100%;
+}
+
+.profile__photo::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #141d54;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.profile__photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.profile:hover .profile__photo img {
+  box-shadow: 0 0 0 14px #141d54;
+  transform: scale(0.7);
+}
+
+.profile__content {
+  margin-bottom: 40px;
+}
+
+.content__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #4e5052;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+
+.profile__social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #141d54;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.profile:hover .profile__social {
+  bottom: 0;
+}
+
+.profile__social li {
+  display: inline-block;
+}
+
+.profile__social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.profile .profile__social li a:hover {
+  color: #eb1768;
+  background: #141d54;
+}
+
+@media only screen and (max-width: 990px) {
+  .profile {
+    margin-bottom: 30px;
+  }
+}
+
+.navigation {
+	background: #0073ca;
+	padding: 0px 23px;
+	font-size: 17px;
+	z-index: 500;
+	box-shadow: 0px 10px 15px -9px;
+}
+
+.navbar-brand {
+	color: #fff;
+}
+
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navigation .nav-item .nav-link {
+	color: #fff;
+	margin-right: 10px;
+	padding: 16px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.navigation li a:hover {
+	background: #f6783a;
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(255, 255, 255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-switch {
+	display: none;
+}
+
+.nav-section {
+	background: #020031;
+}
+
+.nav-section .nav-right {
+	float: right;
+	padding-top: 23px;
+}
+
+.nav-section .nav-right a {
+	color: #fff;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+@media (max-width: 991px){
+.dropdown-item{
+    color: #DAA520 !important; 
+}
+}
+.nav-item, .nav-link{
+    margin: 0px 10px 0px 10px;
+}
+
+.nav-item dropdown, .nav-link dropdown-toggle{
+    position: relative;
+}
+
+#description {
+   background-color:#FFFFFF;
+   height:25px;
+   margin-bottom:10px; 
+   padding:1% 1% 1% 1%;
+}
+
+#description a{
+   text-decoration:none;
+   font-size:15px;
+   font-family:lato;
+   font-weight:bold;
+   color:#000033;
+   
+}
+
+#description a:hover {
+   text-decoration:underline;
+   color:#FF0000;
+}
+
+@media (max-width: 991px){
+.col-lg-4, .col-md-12, .col-sm-12, .col-xs-12{
+    padding: 0px 0px 0px 0px !important;
+}
+}
+
+@media (max-width: 991px){
+    #facilities{
+        padding: 0px 0px 0px 0px !important;
+    }
+    #f1,#f2,#f3{
+        margin: 20px 10px 20px 0px !important;
+        width:100% !important;
+    }
+}
+
+@media (max-width: 991px){
+    #hi1,#hi2{
+        padding: 0px 0px 0px 0px !important;
+    }
+    #img1, #img2{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 991px){
+    #aboutimg1{
+        width: 100% !important;
+        height: 70% !important;
+    }
+    #about1,#about2, #about3{
+        padding: 10px 0px 10px 0px !important;
+        margin: 0px 0px 10px  0px !important;
+    }
+    #a1,#a2,#a3{
+        height: auto !important;
+        width: auto !important;
+    }
+}
+@media (max-width: 1192px){
+    #navid{
+        position: relative !important;
+    }
+}
